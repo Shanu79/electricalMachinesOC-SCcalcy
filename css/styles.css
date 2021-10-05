@@ -3,7 +3,7 @@
     color: rgb(230, 230, 230);
 }
 body {
-    background-image: linear-gradient(rgb(34, 34, 34), #333);
+    background-color: rgb(34, 34, 34);
     font-family: "montserrat";
 }
 .container-fluid {
