@@ -1,10 +1,10 @@
+body {
+    font-family: "montserrat";
+    background-color: rgb(27, 27, 27);
+}
 #title {
     
     color: rgb(230, 230, 230);
-}
-body {
-    background-color: rgb(34, 34, 34);
-    font-family: "montserrat";
 }
 .container-fluid {
     padding: 3% 15%;
@@ -28,9 +28,7 @@ h1 {
 input[type=text] {
     border: 2px solid rgb(170, 170, 170);
     border-radius: 7px;
-    margin: 5px 0;
     box-sizing: content-box;
-    transition: width 0.4s ease-in-out;
   }
 .f1 {
     display: inline-block;
