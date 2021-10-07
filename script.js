@@ -11,8 +11,8 @@ function calc1() {
 
     if(!isNaN(ro) && !isNaN(xo))
     {
-        document.getElementById("ans").innerHTML="The equivalent exciting resistance is " +ro+ " Ω";
-        document.getElementById("ans").innerHTML="The equivalent exciting reactance is "+xo+ " Ω";
+        document.getElementById("r1").innerHTML="The equivalent exciting resistance is " +ro+ " Ω";
+        document.getElementById("x1").innerHTML="The equivalent exciting reactance is "+xo+ " Ω";
     }
 
 }
@@ -27,8 +27,8 @@ function calc2() {
 
     if(!isNaN(rc) && !isNaN(xc))
     {
-        document.getElementById("ans").innerHTML="The equivalent resistance referred to the secondary side is "+rc+ " Ω";
-        document.getElementById("ans").innerHTML="The equivalent reactance referred to the secondary side is given by "+xc+ " Ω";
+        document.getElementById("r1").innerHTML="The equivalent resistance referred to the secondary side is "+rc+ " Ω";
+        document.getElementById("x1").innerHTML="The equivalent reactance referred to the secondary side is given by "+xc+ " Ω";
     }
 
 }
