@@ -56,15 +56,15 @@
 
       <div class="row">
         <div class="col-lg">
-          <h1>Get Equivalent Circuit values</h1>
+          <h1 id="heading" >Get Equivalent Circuit values</h1>
           <br>
           <br>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm">
-          <h3>Open Circuit Test</h3>
+        <div id="oc" class="col-lg-6 col-md-6 col-sm">
           <form>
+            <h3>Open Circuit Test</h3>
             <label for="fname">Voltage(V):</label><br>
             <input type="text" id="vo" placeholder="Vo"><br>
             <br>
@@ -72,14 +72,14 @@
             <input type="text" id="io" placeholder="Io"><br>
             <br>
             <label for="lname">Power(W):</label><br>
-            <input type="text" id="wo" placeholder="Wo">
+            <input type="text" id="wo" placeholder="Wo"><br>
+            <br>
+            <button onclick="return calc1()" type="button" class="btn btn-dark btn-lg">Enter</button><br>
           </form>
-          <br>
-          <button onclick="calc1()" type="button" class="btn btn-dark btn-lg">Enter</button><br>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm">
-          <h3>Short Circuit Test</h3>
+        <div id="sc" class="col-lg-6 col-md-6 col-sm">
           <form>
+            <h3>Short Circuit Test</h3>
             <label for="fname">Voltage(V):</label><br>
             <input type="text" id="vc" placeholder="Vsc"><br>
             <br>
@@ -87,17 +87,17 @@
             <input type="text" id="ic" placeholder="Isc"><br>
             <br>
             <label for="lname">Power(W):</label><br>
-            <input type="text" id="wc" placeholder="Wsc">
+            <input type="text" id="wc" placeholder="Wsc"><br>
+            <br>
+            <button onclick="return calc2()" type="button" class="btn btn-outline-light btn-lg">Enter</button>
           </form>
-          <br>
-          <button onclick="calc2()" type="button" class="btn btn-outline-light btn-lg">Enter</button>
         </div>
       </div>
-      <h1 id="ans"></h1>
   </section>
-
-  <!-- Footer -->
-
+  
+  <div  id="ans"><h2>results:</h2></div>
+  
+<!-- Footer -->
   <footer id="footer">
     <p>© Copyright 2021 SWAGAT RAJ {120EE0504}
     </p>
