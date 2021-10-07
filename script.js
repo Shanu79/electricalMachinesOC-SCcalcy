@@ -17,9 +17,9 @@ function calc1() {
 
 }
 function calc2() {
-    var vc = document.getElementById('vc').ariaValueMax;
-    var ic = document.getElementById('ic').ariaValueMax;
-    var wc = document.getElementById('wc').ariaValueMax;
+    var vc = document.getElementById('vc').value;
+    var ic = document.getElementById('ic').value;
+    var wc = document.getElementById('wc').value;
 
     var rc=parseFloat(wc)/Math.pow(parseFloat(ic), 2);
     var zc=parseFloat(vc)/parseFloat(ic);
@@ -27,8 +27,8 @@ function calc2() {
 
     if(!isNaN(rc) && !isNaN(xc))
     {
-        document.getElementById("r1").innerHTML="The equivalent resistance referred to the secondary side is "+rc+ " Ω";
-        document.getElementById("x1").innerHTML="The equivalent reactance referred to the secondary side is given by "+xc+ " Ω";
+        document.getElementById("r2").innerHTML="The equivalent resistance referred to the secondary side is "+rc+ " Ω";
+        document.getElementById("x2").innerHTML="The equivalent reactance referred to the secondary side is given by "+xc+ " Ω";
     }
 
 }
