@@ -9,6 +9,11 @@ function calc1() {
     var ro=parseFloat(vo)/(parseFloat(io)*parseFloat(cos1));
     var xo=parseFloat(vo)/(parseFloat(io)*parseFloat(sin1));
 
+    if(!isNaN(ro))
+    {
+        document.getElementById("ans").innerHTML="Ro is "+ro;
+    }
+
 }
 function calc2() {
     var vc = document.getElementById('vc').ariaValueMax;
