@@ -62,35 +62,35 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-6 col-md-6">
+        <div class="col-lg-6 col-md-6 col-sm">
           <h3>Open Circuit Test</h3>
           <form>
             <label for="fname">Voltage(V):</label><br>
-            <input type="text" id="v1" placeholder="Vo"><br>
+            <input type="text" id="vo" placeholder="Vo"><br>
             <br>
             <label for="lname">Current(A):</label><br>
-            <input type="text" id="a1" placeholder="Io"><br>
+            <input type="text" id="io" placeholder="Io"><br>
             <br>
             <label for="lname">Power(W):</label><br>
-            <input type="text" id="w1" placeholder="Wo">
+            <input type="text" id="wo" placeholder="Wo">
           </form>
           <br>
-          <button type="button" class="btn btn-dark btn-lg">Enter</button><br>
+          <button onclick="calc1()" type="button" class="btn btn-dark btn-lg">Enter</button><br>
         </div>
-        <div class="col-lg-6 col-md-6">
+        <div class="col-lg-6 col-md-6 col-sm">
           <h3>Short Circuit Test</h3>
           <form>
             <label for="fname">Voltage(V):</label><br>
-            <input type="text" id="v" placeholder="Vsc"><br>
+            <input type="text" id="vc" placeholder="Vsc"><br>
             <br>
             <label for="lname">Current(A):</label><br>
-            <input type="text" id="a" placeholder="Isc"><br>
+            <input type="text" id="ic" placeholder="Isc"><br>
             <br>
             <label for="lname">Power(W):</label><br>
-            <input type="text" id="w" placeholder="Wsc">
+            <input type="text" id="wc" placeholder="Wsc">
           </form>
           <br>
-          <button onclick="calc()" type="button" class="btn btn-outline-light btn-lg">Enter</button>
+          <button onclick="calc2()" type="button" class="btn btn-outline-light btn-lg">Enter</button>
         </div>
       </div>
   </section>
