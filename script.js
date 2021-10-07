@@ -9,13 +9,10 @@ function calc1() {
     var ro=parseFloat(vo)/(parseFloat(io)*parseFloat(cos1));
     var xo=parseFloat(vo)/(parseFloat(io)*parseFloat(sin1));
 
-    if(!isNaN(ro))
+    if(!isNaN(ro) && !isNaN(xo))
     {
-        document.getElementById("ans").innerHTML="The equivalent exciting resistance is "+ro;
-    }
-    else if(!isNaN(xo))
-    {
-        document.getElementById("ans").innerHTML="The equivalent exciting reactance is "+xo;
+        document.getElementById("ans").innerHTML="The equivalent exciting resistance is " +ro+ " Ω";
+        document.getElementById("ans").innerHTML="The equivalent exciting reactance is "+xo+ " Ω";
     }
 
 }
@@ -28,12 +25,10 @@ function calc2() {
     var zc=parseFloat(vc)/parseFloat(ic);
     var xc=Math.sqrt(Math.pow(parseFloat(zc), 2) - Math.pow(parseFloat(rc), 2));
 
-    if(!isNaN(rc))
+    if(!isNaN(rc) && !isNaN(xc))
     {
-        document.getElementById("ans").innerHTML="The equivalent resistance referred to the secondary side is "+rc;
+        document.getElementById("ans").innerHTML="The equivalent resistance referred to the secondary side is "+rc+ " Ω";
+        document.getElementById("ans").innerHTML="The equivalent reactance referred to the secondary side is given by "+xc+ " Ω";
     }
-    else if(!isNaN(xc))
-    {
-        document.getElementById("ans").innerHTML="The equivalent reactance referred to the secondary side is given by "+xc;
-    }
+
 }
