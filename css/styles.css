@@ -30,17 +30,6 @@ input[type=text] {
     border-radius: 7px;
     box-sizing: content-box;
   }
-.f1 {
-    display: inline-block;
-
-}
-.f5 {
-    width: 20%;
-    display: inline-block;
-}
-.f2 {
-    display: inline-block;
-}
 #footer {
    display: flex;
    justify-content: center;
