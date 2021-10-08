@@ -1,1 +1,1 @@
-Electrical machine assignment
+Electrical machines assignment
