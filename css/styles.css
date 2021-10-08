@@ -2,7 +2,7 @@ body {
 
     font-family: "montserrat";
     background-color: rgb(27, 27, 27);
-    background-image: url(../aaaa.svg)
+    background-image: url(../aaaa.svg); background-repeat: no-repeat; background-size: cover;
 }
 #title {
     
