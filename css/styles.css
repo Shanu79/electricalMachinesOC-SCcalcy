@@ -2,7 +2,7 @@ body {
 
     font-family: "montserrat";
     background-color: rgb(27, 27, 27);
-    background-image: url(/aaaa.svg);
+    background-image: url(../aaaa.svg)
 }
 #title {
     
@@ -62,5 +62,5 @@ input[type=text] {
     background-color: #333;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    color: blanchedalmond;
+    color: rgb(221, 221, 221);
 }
