@@ -27,8 +27,8 @@ function calc2() {
 
     if(!isNaN(rc) && !isNaN(xc))
     {
-        document.getElementById("r2").innerHTML="The equivalent resistance referred to the secondary side is "+rc+ " Ω";
-        document.getElementById("x2").innerHTML="The equivalent reactance referred to the secondary side is given by "+xc+ " Ω";
+        document.getElementById("r2").innerHTML="The equivalent resistance referred to the HV side is "+rc+ " Ω";
+        document.getElementById("x2").innerHTML="The equivalent reactance referred to the HV side by "+xc+ " Ω";
     }
 
 }
